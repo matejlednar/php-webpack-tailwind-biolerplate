@@ -1,5 +1,6 @@
 # PHP, Tailwind CSS, PostCSS, Webpack Boilerplate
 
+
 PHP, Tailwind CSS, PostCSS, Webpack boilerplate.
 
 ## Included
@@ -27,6 +28,8 @@ PHP, Tailwind CSS, PostCSS, Webpack boilerplate.
 ## Run project
 
 ``` localhost/src/index.php ```
+
+## Development
 
 ### Watch CSS changes in CSS files
 
