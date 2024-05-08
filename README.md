@@ -1,10 +1,10 @@
-# Tailwind CSS, PostCSS, Webpack Boilerplate
+# PHP, Tailwind CSS, PostCSS, Webpack Boilerplate
 
-
-Tailwind CSS, PostCSS, Webpack boilerplate.
+PHP, Tailwind CSS, PostCSS, Webpack boilerplate.
 
 ## Included
 
+- PHP support
 - Tailwind CSS shared configuration support (custom preset)
 - Smooth scrolling
 - CSS support
@@ -24,34 +24,48 @@ Tailwind CSS, PostCSS, Webpack boilerplate.
 
 ```npm install```
 
-### Run project
+## Run project
 
-``` npm run start ```
+``` localhost/src/index.php ```
 
-### Build project
+### Watch CSS changes in CSS files
+
+Auto-generated styles.css file for development (src/css/styles.css).
+Don't edit src/css/styles.css. Use main.css for styling.
+
+``` npm run css-watch ```
+
+## Build project
 
 ``` npm run build ```
 
 ### Run build/production version
 
-Run index.html file.
-You can use the Live server to run index.html.
+Run index.php file.
 
-Location: dist/index.html
+Location: dist/index.php
 
-### Configuration
+``` localhost/dist/index.php ```
 
-#### npm 
+### Create the CSS output file (optional)
+
+Auto-generated styles.css file for production (dist/css/styles.css). This action is not needed. The style.css file is processed during the build operation.
+
+``` npm run css-build ```
+
+## Configuration
+
+### npm 
 
 Edit package.json file.
 
-Change the entry point here.
+You can change the entry point here.
 
 ``` "main": "src/js/script.js",```
 
 #### tailwind.custom.config.js
 
-Default custom preset configuration (remove demo color)
+Default custom preset configuration (remove demo color).
 
 ```
 /* Shared configuration */
