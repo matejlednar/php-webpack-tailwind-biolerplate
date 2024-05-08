@@ -1,14 +1,15 @@
 # PHP, Tailwind CSS, PostCSS, Webpack Boilerplate
 
+
 PHP, Tailwind CSS, PostCSS, Webpack boilerplate.
 
 ## File structure
-src/css/main.css - place your CSS here,
-src/css/tailwind.css - place tailwind functions, directives, etc. here,
-src/css/styles.css - auto-generated CSS by watch script (don't edit),
-src/js/script.js - place your JavaScript here,
-src/index.php - place your HTML and PHP code here,
-src/inc/*.php - place your *.php files here,
+src/css/main.css - place your CSS here,<br>
+src/css/tailwind.css - place tailwind functions, directives, etc. here,<br>
+src/css/styles.css - auto-generated CSS by watch script (don't edit),<br>
+src/js/script.js - place your JavaScript here,<br>
+src/index.php - place your HTML and PHP code here,<br>
+src/inc/*.php - place your *.php files here,<br>
 
 ## Included
 
